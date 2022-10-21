@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Fredoka&family=Roboto+Slab:wght@400;600&display=swap');
+body{
+    background-color: rgb(81, 77, 89);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    background-color: black;
+    height: 75px;
+}
+
+nav ul li{
+    color: azure;
+    padding: 29px 20px;
+
+
+}
+nav ul li:hover{
+    color: rgb(13, 202, 202);
+    padding: 29px 20px;
+
+
+}
+
+.logo img{
+    height: 45px;
+    width: 60px;
+    padding: 0px 8px;
+}
+
+.logo{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    min-height: 75vh;
+    background-color: darkcyan;
+    color: white;
+    font-family: cursive;
+    width: 70%;
+    height: 300px;
+    margin: 23px auto;
+    border-radius: 12px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1007px 660px;
+    transition: 0.1s ease-in-out;
+    
+}
+
+.container:hover{
+    /* width: 1000px; */
+    transform: scale(1.1);
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(17, 12, 12);
+    color: white;
+    height: 110px;
+    flex-direction: column;
+    border-bottom: 0;
+}
+.icons{
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+#myprogressbar{
+display: flex;
+width: 80vw;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.songitem{
+    height:50px;
+    display: flex;
+    background: transparent;
+    color: aliceblue;
+    margin: 12px 0px;
+    border-radius: 10px;
+
+}
+
+.songitem img{
+    width: 60px;
+    height: 48px;
+    border-radius: 5px;
+    margin: 0px 23px;
+}
+
+.timestamp{
+    margin: 0px 11px;
+}
+
+.timestamp{
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: cursive;
+}
+
+.songinfo img{
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
